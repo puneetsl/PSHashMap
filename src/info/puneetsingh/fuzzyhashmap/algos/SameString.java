@@ -1,6 +1,6 @@
 package info.puneetsingh.fuzzyhashmap.algos;
 
-public class SameString implements FuzzyStrings{
+public class SameString extends FuzzyStrings{
 
 	@Override
 	public String getFuzzyValue(String text) {

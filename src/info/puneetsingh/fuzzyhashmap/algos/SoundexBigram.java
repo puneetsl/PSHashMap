@@ -1,6 +1,6 @@
 package info.puneetsingh.fuzzyhashmap.algos;
 
-public class SoundexBigram implements FuzzyStrings{
+public class SoundexBigram extends FuzzyStrings{
 
 	@Override
 

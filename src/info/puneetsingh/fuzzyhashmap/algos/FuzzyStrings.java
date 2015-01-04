@@ -1,11 +1,12 @@
 package info.puneetsingh.fuzzyhashmap.algos;
 
-public interface FuzzyStrings {
+public abstract class FuzzyStrings {
 	/**   
      * Method to get string to find in dictionary
-     * @author puneet
-     * @param string to find the value in dictionary
+     * //@author puneet
+	 *
+     * @param text as <code>String</code> to find the value in dictionary
      * @return  Fuzzy value as <code>String</code>
      */
-	public String getFuzzyValue(String text);
+	public abstract String getFuzzyValue(String text);
 }
